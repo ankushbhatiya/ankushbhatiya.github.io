@@ -1,0 +1,44 @@
+# Site settings
+title: "Global Alpha Engine"
+description: "A multi-agent algorithmic trading system leveraging collaborative AI for quantitative finance"
+baseurl: "" # Change this if your blog is in a subdirectory
+url: "https://ankushbhatiya.github.io" # Your GitHub Pages URL
+
+# GitHub Pages settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Author settings
+author:
+  name: "Ankush Bhatiya"
+
+# Social links
+github_username: ankushbhatiya
+twitter_username: ankushb_eth
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Pagination
+paginate: 5
+paginate_path: "/page:num/"
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /:year/:month/:day/:title/
+
+# Exclude from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
